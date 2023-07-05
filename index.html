@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Etch-a-Sketch</h1>
+    </div>
+    <div class="choice">
+        <div class="slidecontainer">
+            <input type="range" min="16" max="64" value="16" class="slider" id="myRange">
+        </div>
+        <div class="console">
+            <input type="color" id="colorpicker" value="#000000">
+            <button id="colorB"><h2>color</h2></button>
+            <button id="rainbowB"><h2>rainbow</h2></button>
+            <button id="eraserB"><h2>eraser</h2></button>
+            <button id="clearB"><h2>clear</h2></button>
+        </div>
+    </div>
+    <div class="body">
+        <div class="sketch">
+            <div class="grid">
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h1><a href="https://github.com/grxnto"target="_blank">grxnto.github</h1>
+        <img src="images/github.png"alt="github logo">
+    </div>
+
+
+    <script src="script.js">
+    </script>    
+</body>
+</html>
